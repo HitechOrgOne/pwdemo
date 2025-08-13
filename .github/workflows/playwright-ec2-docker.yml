@@ -36,6 +36,7 @@ jobs:
           npm ci
           npm install -D allure-playwright
           npx playwright install --with-deps
+          echo "Using >>>>>>>> >>>>>>>>>>>>>> >>>>>>>>>> BASE_URL=$BASE_URL"
           npx playwright test --reporter=line,allure-playwright
           npx allure generate allure-results --clean -o allure-report
 
