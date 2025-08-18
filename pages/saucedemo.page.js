@@ -11,7 +11,6 @@ export class SaucedemoPage {
     this.page = page;
     this.locators = locators;
   }
-
   async goto() {
     await this.page.goto('/');
   }
