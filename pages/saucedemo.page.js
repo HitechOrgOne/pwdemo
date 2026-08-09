@@ -1,7 +1,6 @@
 
 
 import { expect } from '@playwright/test';
-
 export class SaucedemoPage {
   /**
    * @param {import('@playwright/test').Page} page
